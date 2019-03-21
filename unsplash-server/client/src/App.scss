@@ -1,0 +1,40 @@
+@import "https://fonts.googleapis.com/css?family=Carter+One";
+
+.App {
+    text-align: center;    
+  }
+
+  .title {
+    font-family: "Carter One";
+  }
+  .container {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  /* Optional style for fetched images */
+  .images {
+    display: flex;
+    max-width: 80%;
+    margin: 2% auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .single-photo {
+    max-width: 300px;
+    align-self: auto;
+    margin: 1% 2px;
+    flex-grow: 1;
+    vertical-align: middle;
+  }
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
